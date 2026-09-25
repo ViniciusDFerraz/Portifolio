@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinicius Dias Ferraz — Engenharia da Computação</title>
+<meta name="description" content="Portfólio de Vinicius Dias Ferraz — estudante de Engenharia da Computação, software e automação elétrica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sheet-grid" aria-hidden="true"></div>
+
+<header class="titleblock">
+  <div class="titleblock__inner">
+    <span class="titleblock__mark">VDF</span>
+    <nav class="titleblock__nav">
+      <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+      <a href="#formacao" data-i18n="nav.education">Formação</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+      <a href="https://www.linkedin.com/in/viniciusferraz-eng" target="_blank" rel="noopener">LinkedIn</a>
+      <button type="button" id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <p class="hero__eyebrow" data-i18n="hero.eyebrow">Capivari, SP</p>
+    <h1 class="hero__name">Vinicius Dias Ferraz<span class="hero__rule" id="heroRule"></span></h1>
+    <p class="hero__role" data-i18n="hero.role">Estudante de Engenharia da Computação — software, IA aplicada e manutenção eletroeletrônica</p>
+    <p class="hero__lede" data-i18n="hero.lede">Gosto de tecnologia e de modernização — aplicar isso tanto no código quanto em processos do dia a dia.</p>
+  </section>
+
+  <section class="section" id="projetos">
+    <h2 class="section__title" data-i18n="section.projects">Projetos</h2>
+
+    <article class="component">
+      <div class="component__corner component__corner--tl" aria-hidden="true"></div>
+      <div class="component__corner component__corner--br" aria-hidden="true"></div>
+      <div class="component__head">
+        <h3>SisG-TG</h3>
+        <p class="component__tagline" data-i18n="project.tagline">Sistema de Gestão do Tiro de Guerra</p>
+      </div>
+      <p class="component__desc" data-i18n="project.desc">
+        Plataforma SaaS multiempresa para unidades de Tiro de Guerra no Brasil: gestão de atiradores,
+        controle de frequência e disciplina, geração de documentos oficiais, escalas de serviço e
+        assinatura recorrente integrada a gateway de pagamento.
+      </p>
+      <ul class="component__stack">
+        <li>Supabase</li>
+        <li>Postgres</li>
+        <li>Asaas</li>
+        <li>HTML / CSS / JS</li>
+      </ul>
+      <div class="component__links">
+        <a href="https://sisgtg.com.br" target="_blank" rel="noopener" data-i18n="project.link.site">Ver site</a>
+        <a href="https://github.com/ViniciusDFerraz" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+
+    <p class="component--empty" data-i18n="project.empty">Mais projetos em construção.</p>
+  </section>
+
+  <section class="section" id="formacao">
+    <h2 class="section__title" data-i18n="section.education">Formação</h2>
+
+    <div class="track">
+      <div class="track__item">
+        <p class="track__period">2025 – 2030</p>
+        <h3 class="track__title" data-i18n="edu.univesp.title">Engenharia da Computação</h3>
+        <p class="track__place">UNIVESP</p>
+        <p class="track__detail" data-i18n="edu.univesp.detail">Algoritmos, programação, banco de dados, automação.</p>
+      </div>
+      <div class="track__item">
+        <p class="track__period">2026 – 2027</p>
+        <h3 class="track__title" data-i18n="edu.senai.title">Eletricista de Manutenção</h3>
+        <p class="track__place">Senai</p>
+        <p class="track__detail" data-i18n="edu.senai.detail">Manutenção preditiva e preventiva, instalações elétricas.</p>
+      </div>
+      <div class="track__item">
+        <p class="track__period" data-i18n="edu.cert.period">Certificado</p>
+        <h3 class="track__title" data-i18n="edu.cert.title">Profissional de IA</h3>
+        <p class="track__place">Google + CIEE</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2 class="section__title" data-i18n="section.contact">Contato</h2>
+    <ul class="contact-list">
+      <li><a href="mailto:viniciusdiasferraz8@gmail.com">viniciusdiasferraz8@gmail.com</a></li>
+      <li><a href="tel:+5519990122143">(19) 99012-2143</a></li>
+      <li><a href="https://github.com/ViniciusDFerraz" target="_blank" rel="noopener">github.com/ViniciusDFerraz</a></li>
+      <li><a href="https://www.linkedin.com/in/viniciusferraz-eng" target="_blank" rel="noopener">linkedin.com/in/viniciusferraz-eng</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Vinicius Dias Ferraz · Capivari-SP</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
